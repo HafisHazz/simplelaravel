@@ -7,8 +7,8 @@ use App\Models\User;
 
 class UserController extends Controller
 {
-    function getUser($id){
-        $user=User::find($id);
-        return "hello world";
+    function getUser(){
+       
+        echo "hello world";
     }
 }
